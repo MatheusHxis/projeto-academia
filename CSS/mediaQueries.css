@@ -1,0 +1,66 @@
+/* Pequenas telas: até 600px
+celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop 992px até 1200px
+Grandes telas: acima de 1200px  */
+@media screen and (max-width: 600px){
+    .cabeçalho h1{
+        font-size: 35px;
+        padding: 17px 10px 0px 15px;
+    }
+    .h2melhores{
+        font-size: 20px;
+        padding: 15px 10px 15px 10px;
+        margin-bottom: 0px;
+    }
+    .btn-meio a{
+        padding: 10px 40px 10px 40px;
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    main > h2{
+        font-size: 20px;
+        padding: 7px 0px 7px 0px;
+        margin-top: 0px;
+    }
+    .preço {
+        height: 280px;
+        max-width: 120px;
+        border-radius: 10px;
+    }
+    .botão-preço{
+        padding: 5px;
+        margin-bottom: 20px;  
+    }
+    .preço img{
+        height: 100px; 
+    }
+    .preço h2{
+        font-size: 18px;
+    }
+    .preço p {
+        font-size: 9px;
+    }
+    .tabela-de-preço h3{
+        font-size: 19pt;
+    }
+    .tabela-de-preço sup{
+        font-size: 8px;
+    }
+    .valores{
+        width: 80%;
+        margin: 25px 10% 5px 10% ;
+    }
+}
+@media screen and (min-width: 768px) {
+
+    i#menu {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+}

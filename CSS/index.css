@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    font-size: 1em;
+}
+header{
+    min-height: 75px;
+    margin-bottom: 0px;
+}
+
+.cabeçalho{
+    height: 100%;
+    min-width: 300px;
+    max-width: 1366px;
+    margin: auto;
+}
+.cabeçalho h1{
+    padding: 10px 0px 5px 70px;
+    font-family: 'Black Ops One', system-ui;
+    color: #2272b3;
+    font-size: 34pt;
+    float: left;
+}
+#menu{
+    color: black;
+    display: block;
+    float: right;
+    padding: 25px 20px 0px 0px;
+    cursor: pointer;
+}
+#menu:hover{
+    color: #2272b3;
+}
+menu{
+    display: none;
+    float: right;
+    padding: 20px 45px 10px 0px;
+    font-family: 'Anton', sans-serif;
+
+}
+menu > ul{
+    list-style: none;
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    
+    
+}
+menu > ul > li > a:hover{
+    color: black;
+    background-color: #4682B4;
+    border-radius: 50px;
+}
+
+
+main{
+    min-width: 300px;
+    max-width: 1366px;
+    margin: auto;
+    background-color: white;
+}
+
+main > img{
+    width: 98%;
+    height: 550px;
+    margin: 0px 1% 0px 1%;
+    border-radius: 20px;
+}
+
+.h2melhores{
+    background-color: white;
+    font-size: 30px;
+    padding: 20px 0px 15px 0px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+.btn-meio{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 15px 0px;
+    padding: 20px 0px 20px 0px;
+}
+.btn-meio a{
+    background-color: #2272b3;
+    width: 20%;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 25px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.btn-meio a:hover{
+    color: black;
+}
+.espaço {
+    text-align: center;
+
+}
+.espaço h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Anton', sans-serif;
+
+}
+.espaço img{
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+main > h2 {
+    font-size: 30px;
+    padding: 7px 0px 7px 0px;
+    font-family: 'Anton', sans-serif;
+
+    border-radius: 0px 0px 7px 7px;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0px;
+}
+.tabela-de-preço{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 400px;
+}
+.tabela-de-preço img{
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
+
+}
+.preço{
+    max-width: 23%;
+    min-height: 100%;
+    border-radius: 17px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.29);
+    text-align: center;
+    transition: 0.5;
+}
+
+.preço:hover{
+    border: 2px solid #4682B4;
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.0);
+}
+
+.botão-preço{
+    background-color: #2272b3;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin-bottom: 20px;
+
+    transition: 0.5;
+    
+}
+.preço img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.botão-preço:hover{
+    color: white;
+    background-color: #2272b3;
+    border: 1px solid black;
+
+}
+.tabela-de-preço p{
+    text-align: center;
+    font-size: 11pt;
+    font-family: arial;
+    
+}
+.tabela-de-preço h3{
+    color: black;
+    font-size: 28pt;
+    font-family: 'Anton', sans-serif;
+}
+.tabela-de-preço sup{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.719)
+}
+.valores{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 35px 10% 5px 10% ;
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+}
+footer h1{
+
+    padding: 50px 0px 50px 0px;
+    font-family: 'Black Ops One', system-ui;
+    color: #2272b3;
+    font-size: 39pt;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
