@@ -1,0 +1,25 @@
+/* Pequenas telas: até 600px
+celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop 992px até 1200px
+Grandes telas: acima de 1200px  */
+@media screen and (max-width: 600px){
+    body{
+        height: 700px;
+        background-color: black;
+        background-image: url(/img/692040.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+
+    }
+    .login{
+        width: 300px;
+        height: 300px;
+        background-color: transparent;
+        margin: auto;
+        margin-top: 150px ;
+    }
+
+    
+}

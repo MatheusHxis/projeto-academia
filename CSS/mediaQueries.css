@@ -50,6 +50,7 @@ Grandes telas: acima de 1200px  */
     }
     .preço img{
         height: 100px; 
+        border-radius: 10px;
     }
     .preço h2{
         font-size: 18px;
