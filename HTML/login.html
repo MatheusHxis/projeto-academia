@@ -10,29 +10,33 @@
     <link rel="stylesheet" type="text/css" href="../CSS/mediaQueriesLogin.css">
 </head>
 <body>
-    <!-- Início do login -->
-    <div class="login">
-        <form action="">
-            <h1>Login</h1> <!-- Parte onde coloca no nome -->
-            <div class="input-box">
-                <input type="text" placeholder="Username" required> 
-                <i class='bx bxs-user'></i>
-            </div>
-            <div class="input-box"> <!-- Parte onde coloca a senha -->
-                <input type="password" placeholder="Password" required>
-                <i class='bx bxs-lock-alt'></i>
-            </div>
+    <main> 
+        <div class="login"> <!-- Início do login -->
+            <form action="">
+                <img class="icone-texto" src="../img/logologin.png" alt="">
+                <h1>Gym</h1>
+                <h1>Fit</h1>
+                <p>Transforme Seu Corpo</p>
+                <div class="input-box">
+                    <input type="text" placeholder="E-Email" required> 
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box"> <!-- Parte onde coloca a senha -->
+                    <input type="password" placeholder="Senha" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
 
-            <!-- Caso esqueça a senha -->
-            <div class="remember-forgot">
-                <label><input type="checkbox">Remember me</label>
-                <a href="#">Forgot Password?</a>
-            </div>
-            <button type="submit" class="bnt">Login</button>
-            <div class="register-link">
-                <p>Don't have an account? <a href="#">Register</a></p>
-            </div>
-        </form>
-    </div>
+                <!-- Caso esqueça a senha -->
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Lembrar Senha</label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="bnt">Acessar</button>
+                <div class="registro">
+                    <p2>Não tem uma conta? <a href="#">Registro</a></p2>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>

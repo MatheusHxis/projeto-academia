@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,37 +8,64 @@
 }
 
 body{
-    background-color: black;
-    min-width: 300px;
-    max-width: 1366px;
-    background-image: url(/img/692040.jpg);
-    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/692040.jpg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main{
+    max-width: 1366px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .login{
     width: 500px;
     height: 500px;
-    margin:  auto;
-    margin-top: 70px;
-    border: 1px white solid;
+    margin: auto;
+    box-shadow: 0px 0px 2px white;
     border-radius: 10px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.745);
+}
+.login h1{
+    position: relative;
+        left: 240px;
+        bottom: 40px;
+    border-left: 2px solid white;
+    padding-left: 20px;
+    font-size: 30pt;
+    font-family: 'Black Ops One', system-ui;
+}
+.login p{
+    text-align: center;
+    position: relative;
+        bottom: 25px;
+
 }
 
-.login h1{
+.login h2{
     font-size: 36px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.login .input-box{
+.input-box{
     width: 100%;
+    margin-bottom: 10px;
     height: 50px;
 }
 
 .input-box input{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin: 0 10% 0 10%;
     background: transparent;
     border: 2px solid rgba(255,255,255,.2);
     border-radius: 30px;
@@ -51,23 +80,57 @@ body{
 
 .input-box i{
     position: relative;
-    right: -450px;
-    top: -35px;
+        right: -420px;
+        top: -30px;
 }
 
 .login .remember-forgot{
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
-    margin: 30px 0 20px;
+    margin: 10px 70px 30px 70px;
 }
-
 .remember-forgot label input{
     accent-color: white;
     margin-right: 4px;
+}
+.remember-forgot a:hover{
+    color: #Ff4949;
 }
 
 .remember-forgot a{
     color: white;
     text-decoration: none;
+}
+button{
+    background-color: #Ff4949;
+    padding: 12px 70px 12px 70px;
+    color: white;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 25% 0 25%;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid black
+}
+button:hover{
+    color: black;
+}
+.icone-texto{
+    width: 90px;
+    position: relative;
+        top: 50px;
+        left: 130px;
+}
+.registro{
+    position: relative;
+        top: 40px;
+    text-align: center;
+}
+.registro a{
+    color: #Ff4949;
+    text-decoration: none;
+}
+.registro a:hover{
+    color: #010e88;
 }
