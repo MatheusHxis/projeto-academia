@@ -8,17 +8,29 @@ Grandes telas: acima de 1200px  */
         font-size: 35px;
         padding: 17px 10px 0px 15px;
     }
+    .nomeLogo1{
+        margin-left: 1px;
+    }
+    #menu{
+        color: rgba(0, 0, 0, 0.57);
+        display: block;
+        padding: 25px 20px 0px 0px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        float: right;
+    }
+    #menu:hover{
+        color: #2272b3;
+    }
+    menu > ul > li > a {
+        margin-bottom: 5px;
+        color: black;
+    }
     main > img{
-        width: 98%;
         height: 300px;
-        margin: 0px 1% 0px 1%;
         border-radius: 20px;
     }
-    .h2melhores{
-        font-size: 20px;
-        padding: 15px 10px 15px 10px;
-        margin-bottom: 0px;
-    }
+
     .btn-meio a{
         padding: 10px 40px 10px 40px;
         font-size: 15px;
@@ -29,15 +41,59 @@ Grandes telas: acima de 1200px  */
         padding: 7px 0px 7px 0px;
         margin-top: 0px;
     }
-    .espaço h2{
-        font-size: 25px;
+    .fundo{
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .btn-meio{ 
+        height: 200px;
+    }
+    .nossoTime1{
+        position: relative;
+            left: -75px;
+            bottom: 25px;
+    }
+    .nossoTime2{
+        margin-right: 105px;
+        position: relative;
+            bottom: 90px;
+    }
+    .btn-meio h2{   
+        font-size: 30px;
+        padding-top: 25px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .btn-meio p{
+        text-align: center;
+        position: relative;
+            bottom: 70px;
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+    }
+    .btn-meio p2{
+        text-align: center;
+        position: relative;
+            bottom: 80px;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+    }
+    .btn-meio a{
+        position: relative;
+            bottom: 45px;
+        padding: 2px 20px 2px 20px;
+        font-size: 20px;
+    }
+    .espaco h2{
+        font-size: 23px;
+        margin-top: 10px;
     
     }
-    .espaço img{
+    .espaco img{
         margin-left: 0px;
         margin-bottom: 20px;
-        width: 110px;
-        height: 130px;
+        width: 115px;
+        height: 140px;
     }
     .preço {
         height: 280px;

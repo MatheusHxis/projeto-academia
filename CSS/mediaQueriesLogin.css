@@ -12,10 +12,10 @@ Grandes telas: acima de 1200px  */
     }
     .login h1{
         position: relative;
-            left: 140px;
+            left: 130px;
             bottom: 40px;
         padding-left: 20px;
-        font-size: 30pt;
+        font-size: 20pt;
     }
     .input-box i{
         position: relative;
@@ -25,8 +25,8 @@ Grandes telas: acima de 1200px  */
     .icone-texto{
         width: 70px;
         position: relative;
-            top: 50px;
-            left: 50px;
+            top: 25px;
+            left: 40px;
     }
     .login .remember-forgot{
         font-size: 12px;

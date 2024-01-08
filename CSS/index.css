@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{
     margin: 0px;
@@ -19,7 +20,14 @@ p{
 }
 header{
     min-height: 75px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.679);
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    border-radius: 0px 0px 20px 20px;
+    background-image: url(../img/academia-piso-vinilico-escuro-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cabeçalho{
@@ -27,16 +35,33 @@ header{
     min-width: 300px;
     max-width: 1366px;
     margin: auto;
+    margin-top: -5px;
+    background-color: rgba(0, 0, 0, 0.617);
+    height: 80px;
+    border-radius: 0px 0px 20px 20px;
+}
+.nomeLogo1{
+    color: white !important;
+    margin-left: 40px;
+    filter: drop-shadow(0px 0px 5px 
+    rgba(0, 0, 0, 0.5));
+}
+.nomeLogo2{
+    color: #Ff4949 !important;
+    margin-left: 0px;
+    width: 100px;
+    filter: drop-shadow(0px 0px 5px 
+    rgba(0, 0, 0, 0.5));
 }
 .cabeçalho h1{
-    padding: 10px 0px 5px 70px;
+    padding: 10px 0px 10px 5px;
     font-family: 'Black Ops One', system-ui;
     color: #2272b3;
-    font-size: 34pt;
+    font-size: 40px;
     float: left;
 }
 #menu{
-    color: black;
+    color: rgba(0, 0, 0, 0.57);
     display: block;
     float: right;
     padding: 25px 20px 0px 0px;
@@ -49,7 +74,6 @@ menu{
     display: none;
     float: right;
     padding: 20px 45px 10px 0px;
-    font-family: 'Anton', sans-serif;
 
 }
 menu > ul{
@@ -60,23 +84,28 @@ menu > ul > li > a {
     padding: 10px 40px 10px 40px;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 18px;
-    
-    
+    margin-left: 40px;
+    font-family: 'Inter', sans-serif;   
 }
 menu > ul > li > a:hover{
-    color: black;
-    background-color: #4682B4;
-    border-radius: 50px;
+    color: #Ff4949;
 }
-
+.btnInicio{
+    padding: 5px 35px 5px 35px;
+    border-radius: 30px;
+}
+.btnInicioP{
+    padding: 5px 30px 5px 30px;
+    border: 3px solid #Ff4949;
+    border-radius: 10px;
+}
 
 main{
     min-width: 300px;
     max-width: 1366px;
     margin: auto;
-    background-color: white;
 }
 
 main > img{
@@ -86,45 +115,70 @@ main > img{
     border-radius: 20px;
 }
 
-.h2melhores{
-    background-color: white;
-    font-size: 30px;
-    padding: 20px 0px 15px 0px;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
+.fundo{
+    background-image: url(../img/fundo_teste.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
 }
-.btn-meio{
-    display: flex;
-    justify-content: center;
-    margin: 0px 0px 15px 0px;
-    padding: 20px 0px 20px 0px;
+.btn-meio{ 
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.824);
+    height: 290px;
+}
+.nossoTime1{
+    position: relative;
+        right: 85px;
+}
+.nossoTime2{
+    position: relative;
+        left: 105px;
+        bottom: 84px;
+        color: #Ff4949;
+}
+.btn-meio h2{   
+    font-size: 45px;
+    padding-top: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.btn-meio p{
+    text-align: center;
+    position: relative;
+        bottom: 25px;
+        font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.btn-meio p2{
+    text-align: center;
+    position: relative;
+        bottom: 60px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
 }
 .btn-meio a{
-    background-color: #2272b3;
-    width: 20%;
-    padding: 8px 0px 8px 0px;
     text-align: center;
+    padding: 5px 30px 5px 30px;
+    border: 3px solid #Ff4949;
     font-size: 22px;
-    border-radius: 25px;
-    font-family: 'Anton', sans-serif;
-    color: white;
+    color: black;
+    border-radius: 10px;
 }
 
 .btn-meio a:hover{
-    color: black;
+    color: #Ff4949;
 }
-.espaço {
+.espaco {
     text-align: center;
 
 }
-.espaço h2{
+.espaco h2{
     font-size: 35px;
     margin-bottom: 20px;
     font-family: 'Anton', sans-serif;
 
 }
-.espaço img{
+.espaco img{
     border-radius: 15px;
     margin-left: 20px;
     margin-bottom: 30px;
