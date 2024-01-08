@@ -4,12 +4,11 @@ Tablet: 768px até 992px
 Desktop 992px até 1200px
 Grandes telas: acima de 1200px  */
 @media screen and (max-width: 600px){
-    main{
-        width: 300px;
-        margin: auto;
+    body{
+        height: 100vh;
     }
     .login{
-        width: 300px;
+         width: 80%
     }
     .login h1{
         position: relative;

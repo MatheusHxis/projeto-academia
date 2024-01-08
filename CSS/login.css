@@ -14,20 +14,15 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-main{
-    max-width: 1366px;
-    min-height: 600px;
+    height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin: auto;
-}
 
+}
 .login{
     width: 500px;
     height: 500px;
-    margin: auto;
     box-shadow: 0px 0px 2px white;
     border-radius: 10px;
     color: white;
