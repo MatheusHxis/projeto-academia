@@ -44,7 +44,7 @@ header{
     color: white !important;
     margin-left: 40px;
     filter: drop-shadow(0px 0px 5px 
-    rgba(0, 0, 0, 0.5));
+     rgba(0, 0, 0, 0.5));
 }
 .nomeLogo2{
     color: #Ff4949 !important;
@@ -59,6 +59,7 @@ header{
     color: #2272b3;
     font-size: 40px;
     float: left;
+    text-transform: uppercase;
 }
 #menu{
     color: rgba(0, 0, 0, 0.57);
@@ -114,7 +115,14 @@ main > img{
     margin: 0px 1% 0px 1%;
     border-radius: 20px;
 }
-
+main > p{
+    position: absolute;
+        bottom: 80px;
+        left: 820px;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+}
 .fundo{
     background-image: url(../img/fundo_teste.png);
     background-position: center;
@@ -133,8 +141,8 @@ main > img{
 }
 .nossoTime2{
     position: relative;
-        left: 105px;
         bottom: 84px;
+    margin-left: 210px;
         color: #Ff4949;
 }
 .btn-meio h2{   
@@ -169,28 +177,82 @@ main > img{
     color: #Ff4949;
 }
 .espaco {
-    text-align: center;
-
+    margin-top: 0px;
+    background-color: black;
+    height: 550px;
 }
+
 .espaco h2{
+    color: white;
+    text-align: center;
     font-size: 35px;
-    margin-bottom: 20px;
+    margin: 0px 0 20px 0;
+    padding-top: 10px;
     font-family: 'Anton', sans-serif;
 
 }
-.espaco img{
-    border-radius: 15px;
-    margin-left: 20px;
+.espaco > img{
+    border-radius: 10px;
     margin-bottom: 30px;
+    margin-left: 35px;
+    height: 350px;
+    width: 400px;
+    box-shadow: 0px 0px 10px white;
 }
+
+.espaco > p{
+    display: inline;
+    font-size: 40px;
+    z-index: 10;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    position: relative;
+        bottom: 160px;
+        left: 80px;
+}
+.espaco p2{
+    display: inline;
+    font-size: 40px;
+    z-index: 10;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    position: relative;
+        bottom: 160px;
+        left: 320px;
+
+}
+.espaco p3{
+    display: inline;
+    font-size: 40px;
+    z-index: 10;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    position: relative;
+        bottom: 160px;
+        left: 610px;
+
+}
+.linha-vermelha{
+    height: 40px;
+    width: 100%;
+    background-color: #bc0202;
+    position: relative;
+        bottom: 50px;
+}
+.linha-vermelha > p{
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+
 
 main > h2 {
     font-size: 30px;
     padding: 7px 0px 7px 0px;
     font-family: 'Anton', sans-serif;
-
     border-radius: 0px 0px 7px 7px;
-
     display: flex;
     justify-content: center;
     width: 100%;
@@ -229,7 +291,6 @@ main > h2 {
     font-family: 'Anton', sans-serif;
     color: black;
     margin-bottom: 20px;
-
     transition: 0.5;
     
 }
@@ -256,7 +317,7 @@ main > h2 {
 }
 .tabela-de-preço sup{
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.719)
+    color: rgba(0, 0, 0, 0.719);
 }
 .valores{
     width: 80%;
