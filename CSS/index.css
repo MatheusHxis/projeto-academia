@@ -131,7 +131,9 @@ main>p {
 }
 
 .nomeImg {
-    margin: 10px 0px 120px 471px
+    margin: 20px 0px 140px 0px;
+    position: relative;
+        left: 320px;
 }
 
 .btn-meio {
@@ -149,9 +151,9 @@ main>p {
 }
 
 .btn-meio p2 {
-    text-align: center;
     position: relative;
     bottom: 60px;
+    left: -170px;
     font-size: 25px;
     font-family: 'Goldman', sans-serif;
 }
@@ -292,8 +294,14 @@ main>h2 {
     text-transform: uppercase;
     font-family: 'Goldman', sans-serif;
     color: white;
+    margin-top: -4px;
     margin-bottom: 20px;
     transition: 0.5;
+
+}
+.botão-preço:hover {
+    color: #Ff4949;
+    border: 1px solid black;
 
 }
 
@@ -302,11 +310,7 @@ main>h2 {
     margin-bottom: 0px;
 }
 
-.botão-preço:hover {
-    color: #Ff4949;
-    border: 1px solid black;
 
-}
 
 .tabela-de-preço p {
     text-align: center;
