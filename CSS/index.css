@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Noto+Sans:wght@100;700&display=swap');
 
 *{
     margin: 0px;
@@ -251,7 +252,8 @@ main > p{
 main > h2 {
     font-size: 30px;
     padding: 7px 0px 7px 0px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Goldman', sans-serif;
+    text-transform: uppercase;
     border-radius: 0px 0px 7px 7px;
     display: flex;
     justify-content: center;
@@ -285,11 +287,11 @@ main > h2 {
 }
 
 .botão-preço{
-    background-color: #2272b3;
+    background-color: #00063E;
     padding: 10px;
     text-transform: uppercase;
-    font-family: 'Anton', sans-serif;
-    color: black;
+    font-family: 'Goldman', sans-serif;
+    color: white;
     margin-bottom: 20px;
     transition: 0.5;
     
@@ -299,21 +301,21 @@ main > h2 {
     margin-bottom: 0px;
 }
 .botão-preço:hover{
-    color: white;
-    background-color: #2272b3;
+    color: #Ff4949;
     border: 1px solid black;
 
 }
 .tabela-de-preço p{
     text-align: center;
+    color: #Ff4949;
     font-size: 11pt;
-    font-family: arial;
+    font-family: 'Goldman', sans-serif;
     
 }
 .tabela-de-preço h3{
     color: black;
     font-size: 28pt;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Goldman', sans-serif;
 }
 .tabela-de-preço sup{
     font-size: 15px;
