@@ -4,22 +4,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&family=Noto+Sans:wght@100;700&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-p{
+
+p {
     text-align: justify;
     font-size: 1em;
 }
-header{
+
+header {
     min-height: 75px;
     margin-bottom: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.679);
@@ -31,7 +35,7 @@ header{
     background-size: cover;
 }
 
-.cabeçalho{
+.cabeçalho {
     height: 100%;
     min-width: 300px;
     max-width: 1366px;
@@ -41,47 +45,35 @@ header{
     height: 80px;
     border-radius: 0px 0px 20px 20px;
 }
-.nomeLogo1{
-    color: white !important;
-    margin-left: 40px;
-    filter: drop-shadow(0px 0px 5px 
-     rgba(0, 0, 0, 0.5));
+
+.logoDoSite {
+    margin-left: 20px;
 }
-.nomeLogo2{
-    color: #Ff4949 !important;
-    margin-left: 0px;
-    width: 100px;
-    filter: drop-shadow(0px 0px 5px 
-    rgba(0, 0, 0, 0.5));
-}
-.cabeçalho h1{
-    padding: 10px 0px 10px 5px;
-    font-family: 'Black Ops One', system-ui;
-    color: #2272b3;
-    font-size: 40px;
-    float: left;
-    text-transform: uppercase;
-}
-#menu{
+
+#menu {
     color: rgba(0, 0, 0, 0.57);
     display: block;
     float: right;
     padding: 25px 20px 0px 0px;
     cursor: pointer;
 }
-#menu:hover{
+
+#menu:hover {
     color: #2272b3;
 }
-menu{
+
+menu {
     display: none;
     float: right;
     padding: 20px 45px 10px 0px;
 
 }
-menu > ul{
+
+menu>ul {
     list-style: none;
 }
-menu > ul > li > a {
+
+menu>ul>li>a {
     display: block;
     padding: 10px 40px 10px 40px;
     text-decoration: none;
@@ -89,83 +81,82 @@ menu > ul > li > a {
     color: white;
     font-size: 18px;
     margin-left: 40px;
-    font-family: 'Inter', sans-serif;   
+    font-family: 'Inter', sans-serif;
 }
-menu > ul > li > a:hover{
+
+menu>ul>li>a:hover {
     color: #Ff4949;
 }
-.btnInicio{
+
+.btnInicio {
     padding: 5px 35px 5px 35px;
     border-radius: 30px;
 }
-.btnInicioP{
+
+.btnInicioP {
     padding: 5px 30px 5px 30px;
     border: 3px solid #Ff4949;
     border-radius: 10px;
 }
 
-main{
+main {
     min-width: 300px;
     max-width: 1366px;
     margin: auto;
 }
 
-main > img{
+main>img {
     width: 98%;
     height: 550px;
     margin: 0px 1% 0px 1%;
     border-radius: 20px;
 }
-main > p{
+
+main>p {
     position: absolute;
-        bottom: 80px;
-        left: 820px;
+    bottom: 80px;
+    left: 820px;
     width: 350px;
     height: 50px;
     cursor: pointer;
 }
-.fundo{
+
+.fundo {
     background-image: url(../img/fundo_teste.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 290px;
+    
 }
-.btn-meio{ 
+
+.nomeImg {
+    margin: 10px 0px 120px 471px
+}
+
+.btn-meio {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.824);
     height: 290px;
 }
-.nossoTime1{
-    position: relative;
-        right: 85px;
-}
-.nossoTime2{
-    position: relative;
-        bottom: 84px;
-    margin-left: 210px;
-        color: #Ff4949;
-}
-.btn-meio h2{   
-    font-size: 45px;
-    padding-top: 25px;
-    font-family: 'Bebas Neue', sans-serif;
-}
-.btn-meio p{
+
+.btn-meio p {
     text-align: center;
     position: relative;
-        bottom: 25px;
-        font-size: 20px;
-    font-family: 'Inter', sans-serif;
+    bottom: 25px;
+    font-size: 20px;
+    font-family: 'Goldman', sans-serif;
 }
-.btn-meio p2{
+
+.btn-meio p2 {
     text-align: center;
     position: relative;
-        bottom: 60px;
+    bottom: 60px;
     font-size: 25px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Goldman', sans-serif;
 }
-.btn-meio a{
+
+.btn-meio a {
     text-align: center;
     padding: 5px 30px 5px 30px;
     border: 3px solid #Ff4949;
@@ -174,25 +165,28 @@ main > p{
     border-radius: 10px;
 }
 
-.btn-meio a:hover{
+.btn-meio a:hover {
     color: #Ff4949;
 }
+
 .espaco {
     margin-top: 0px;
     background-color: black;
     height: 550px;
+    box-shadow: 0px 0px 10px black;
 }
 
-.espaco h2{
+.espaco h2 {
     color: white;
     text-align: center;
     font-size: 35px;
     margin: 0px 0 20px 0;
     padding-top: 10px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Goldman', sans-serif;
 
 }
-.espaco > img{
+
+.espaco>img {
     border-radius: 10px;
     margin-bottom: 30px;
     margin-left: 35px;
@@ -201,46 +195,49 @@ main > p{
     box-shadow: 0px 0px 10px white;
 }
 
-.espaco > p{
+.espaco>p {
     display: inline;
     font-size: 40px;
     z-index: 10;
     font-family: 'Anton', sans-serif;
     color: white;
     position: relative;
-        bottom: 160px;
-        left: 80px;
+    bottom: 95px;
+    left: 130px;
 }
-.espaco p2{
+
+.espaco p2 {
     display: inline;
     font-size: 40px;
     z-index: 10;
     font-family: 'Anton', sans-serif;
     color: white;
     position: relative;
-        bottom: 160px;
-        left: 320px;
+    bottom: 95px;
+    left: 390px;
 
 }
-.espaco p3{
+
+.espaco p3 {
     display: inline;
     font-size: 40px;
     z-index: 10;
     font-family: 'Anton', sans-serif;
     color: white;
     position: relative;
-        bottom: 160px;
-        left: 610px;
-
+    bottom: 95px;
+    left: 655px;
 }
-.linha-vermelha{
+
+.linha-vermelha {
     height: 40px;
     width: 100%;
     background-color: #bc0202;
     position: relative;
-        bottom: 50px;
+    bottom: 50px;
 }
-.linha-vermelha > p{
+
+.linha-vermelha>p {
     text-align: center;
     font-size: 29px;
     color: white;
@@ -249,7 +246,7 @@ main > p{
 }
 
 
-main > h2 {
+main>h2 {
     font-size: 30px;
     padding: 7px 0px 7px 0px;
     font-family: 'Goldman', sans-serif;
@@ -260,18 +257,21 @@ main > h2 {
     width: 100%;
     margin-top: 0px;
 }
-.tabela-de-preço{
+
+.tabela-de-preço {
     margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
     max-height: 400px;
 }
-.tabela-de-preço img{
+
+.tabela-de-preço img {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
 
 }
-.preço{
+
+.preço {
     max-width: 23%;
     min-height: 100%;
     border-radius: 17px;
@@ -280,13 +280,13 @@ main > h2 {
     transition: 0.5;
 }
 
-.preço:hover{
+.preço:hover {
     border: 2px solid #4682B4;
     box-shadow: 0px 0px 10px black;
     transform: scale(1.0);
 }
 
-.botão-preço{
+.botão-preço {
     background-color: #00063E;
     padding: 10px;
     text-transform: uppercase;
@@ -294,54 +294,63 @@ main > h2 {
     color: white;
     margin-bottom: 20px;
     transition: 0.5;
-    
+
 }
-.preço img{
+
+.preço img {
     width: 100%;
     margin-bottom: 0px;
 }
-.botão-preço:hover{
+
+.botão-preço:hover {
     color: #Ff4949;
     border: 1px solid black;
 
 }
-.tabela-de-preço p{
+
+.tabela-de-preço p {
     text-align: center;
     color: #Ff4949;
     font-size: 11pt;
     font-family: 'Goldman', sans-serif;
-    
+
 }
-.tabela-de-preço h3{
+
+.tabela-de-preço h3 {
     color: black;
     font-size: 28pt;
     font-family: 'Goldman', sans-serif;
 }
-.tabela-de-preço sup{
+
+.tabela-de-preço sup {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.719);
 }
-.valores{
+
+.valores {
     width: 80%;
     display: flex;
     justify-content: center;
-    margin: 35px 10% 5px 10% ;
+    margin: 35px 10% 5px 10%;
 }
-footer{
-    margin-top: 50px;
-    background-color: black;
-    text-align: center;
-}
-footer h1{
 
-    padding: 50px 0px 50px 0px;
-    font-family: 'Black Ops One', system-ui;
-    color: #2272b3;
-    font-size: 39pt;
+footer {
+    margin-top: 50px;
+    background-image: url(../img/academia-piso-vinilico-escuro-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
 }
-footer p{
+
+.fundoFooter {
+    background-color: rgba(0, 0, 0, 0.617);
+    height: 100%;
+}
+
+footer p {
     color: white;
-    text-align: center;
     font-size: 20px;
     font-family: sans-serif;
+    text-align: center;
 }
