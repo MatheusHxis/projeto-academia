@@ -339,6 +339,7 @@ main>h2 {
 }
 
 footer {
+    text-align: center;
     margin-top: 50px;
     background-image: url(../img/academia-piso-vinilico-escuro-1.jpg);
     background-position: center;
@@ -355,6 +356,7 @@ footer {
 footer p {
     color: white;
     font-size: 20px;
+    margin-bottom: 10px;
     font-family: sans-serif;
     text-align: center;
 }
