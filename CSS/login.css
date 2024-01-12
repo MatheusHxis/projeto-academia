@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Noto+Sans:wght@100;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:"Poppins", sans-serif ;
+    font-family: 'Goldman', sans-serif;
 }
 
 body{
@@ -31,16 +32,18 @@ body{
 .login h1{
     position: relative;
         left: 240px;
-        bottom: 40px;
+        top: -70px;
     border-left: 2px solid white;
     padding-left: 20px;
     font-size: 30pt;
     font-family: 'Black Ops One', system-ui;
+    text-transform: uppercase;
 }
 .login p{
     text-align: center;
     position: relative;
-        bottom: 25px;
+        bottom: 45px;
+    font-family: 'Goldman', sans-serif;
 
 }
 
@@ -106,20 +109,21 @@ button{
     margin: 0 25% 0 25%;
     font-size: 20px;
     cursor: pointer;
-    border: 1px solid black
+    border: 1px solid black;
+    font-family: 'Goldman', sans-serif;
 }
 button:hover{
     color: black;
 }
 .icone-texto{
-    width: 90px;
+    width: 150px;
     position: relative;
         top: 50px;
-        left: 130px;
+        left: 80px;
 }
 .registro{
     position: relative;
-        top: 40px;
+        top: 10px;
     text-align: center;
 }
 .registro a{
@@ -127,5 +131,5 @@ button:hover{
     text-decoration: none;
 }
 .registro a:hover{
-    color: #010e88;
+    color: white;
 }

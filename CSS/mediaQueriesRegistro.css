@@ -8,10 +8,10 @@ Grandes telas: acima de 1200px  */
     body{
         height: 100vh;
     }
-    .login{
+    .register{
          width: 80%
     }
-    .login h1{
+    .register h1{
         width: 10px;
         position: relative;
             left: 130px;
@@ -19,11 +19,6 @@ Grandes telas: acima de 1200px  */
         padding-left: 20px;
         font-size: 20pt;
         text-transform: uppercase;
-    }
-    .login p{
-        text-align: center;
-        position: relative;
-            bottom: 20px;
     }
     .input-box i{
         position: relative;
@@ -38,12 +33,19 @@ Grandes telas: acima de 1200px  */
     }
     .login .remember-forgot{
         font-size: 12px;
-        margin: 12px 27px 40px 27px;
+        margin: 10px 35px 40px 35px;
     }
     button{
         padding: 10px 0px 10px 0px;
         width: 70%;
         margin: 0 15% 0 15%;
+        position: relative;
+        top: 30px;
+    }
+    p2{
+        position: relative;
+        top: 50px;
+        left: 55px;
     }
     
 }
