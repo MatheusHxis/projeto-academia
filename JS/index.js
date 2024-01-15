@@ -15,3 +15,9 @@ function clickMenu() {
             itens.style.display = 'block'
         }
 }
+
+function scrollParaSecao(preco) {
+    const secao = document.getElementById(preco);
+    secao.scrollIntoView({behavior:
+    'smooth'});
+}

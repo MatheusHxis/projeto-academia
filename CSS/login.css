@@ -106,7 +106,7 @@ button{
     color: white;
     border-radius: 30px;
     width: 50%;
-    margin: 0 25% 0 25%;
+    margin: -50px 25% 0 25%;
     font-size: 20px;
     cursor: pointer;
     border: 1px solid black;
