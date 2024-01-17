@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Noto+Sans:wght@100;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Goldman', sans-serif;
+}
+
+main{
+    text-align: center;
+    display: block
+}
+
+#fazerTreino{
+    float: left;
+    width: 49%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.321);
+}
+input{
+    width: 30%;
+    margin: 0 35% 7px 35%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.321);
+}
+button{
+    background-color: brown;
+    padding: 7px 40px 7px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Goldman', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+#parteDaLista{
+    float: right;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.321);
+
+}
+#parteDaLista{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 60%;
+    margin: 0px 20% 7px 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.321);
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+}

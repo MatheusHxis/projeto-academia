@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JS/planoDeTreino.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/listaDeTreino.css">
+    <title>Lista De Treino</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Sua Lista De Treino</h1>
+        <div id="fazerTreino">
+            <h2>Faça Seu treino de Segunda-Feira</Segunda-Feira></h2>
+            <form action="">
+                <input id="exercicio" type="text" placeholder="Exercício">
+                <input id="reps" type="number" placeholder="Meta de Reps?">
+                <input id="kg" type="number" placeholder="Meta de kg?">
+                <button type="button" onclick="addExercicio()" id="addTreino">add treino</button>
+            </form>
+        </div>
+    </main>
+    <div id="parteDaLista">
+        <h2>Lista De Treino</h2>
+        <ul id="listaDeTreino">
+
+        </ul>
+    </div>
+</body>
+
+</html>
