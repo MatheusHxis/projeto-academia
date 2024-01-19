@@ -18,6 +18,8 @@ function addExercicio(){
         alert('Por favor, preencha todos os campos.')
     }
 }
-document.getElementById('diasDaSemana').addEventListener('change', function()
+document.getElementById('diasDaSemana').addEventListener('change', function(){
+    let diaSelecionado = this
+}
 
 )
