@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function preencherListaDeExercicios() {
     let exercicios = [
-        "Supino", "Rosca Martelo", "Rosca Reta", "Ombro", // ... até 100 exercícios
+        "Supino", "Triceps", "Voador", "Ombro", // ... até 100 exercícios
     ];
 
     let selectExercicios = document.getElementById('exercicios');
@@ -26,7 +26,7 @@ function addExercicio() {
     let diaSelecionado = document.getElementById('diasDaSemana').value;
 
     if ((exercicios.value || nomeTreino) && pesoKg && reps) {
-        let novoExerciciotexto = `${exercicios.value || nomeTreino} - Peso: ${pesoKg} kg, Repetições: ${reps}`;
+        let novoExerciciotexto = `${exercicios.value || nomeTreino} - Peso: ${pesoKg} kg - Repetições: ${reps}`;
 
         let novoExercicio = criarElementoLiComBotaoExcluir(diaSelecionado, novoExerciciotexto);
 

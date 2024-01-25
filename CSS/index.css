@@ -354,6 +354,7 @@ footer {
     height: 100%;
 }
 
+
 footer p {
     color: white;
     font-size: 20px;
@@ -366,36 +367,36 @@ footer p {
 .rank{
     width: 50%;
     margin: auto;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.725);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.306);
     margin-top: 30px;
     border-radius: 30px 30px 0px 0px;
+    margin-bottom: 50px;
 }
 .rank h1 {
     text-align: center;
     font-family: 'Goldman', sans-serif;
     padding: 15px 0px 15px 0px;
     text-transform:uppercase;
-    background-color: #Ff4949;
-    color: white;
+    color: black;
     border-radius: 30px 30px 0px 0px;
 }
 .rank h2{
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Goldman', sans-serif;
     text-transform: uppercase;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.386);
     padding: 5px 0px 5px 0px;
 }
 .rank p{
-    color: white;
+    color: black;
     position: relative;
         left: 5px;
         bottom: 50px;
     width: 300px;
     display: inline;
     font-family: 'Goldman', sans-serif;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.386);
     padding: 10px 10px 10px 10px;
     text-transform: uppercase;
     border-radius: 8px;
@@ -403,7 +404,7 @@ footer p {
 }
 .pessoaDoRank{
     width: 100%;
-    color: white;
+    color: black;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.749);
 }
 .pessoaDoRank img{
@@ -411,5 +412,8 @@ footer p {
     width: 100px;
     height: 100px;
     margin: 5px 0px 5px 10px; 
+}
+.perfil {
+    background-color: #bc02024a;
 }
 /* ^^^ FIM DO CSS RANK DE GANHOS DOS USUARIOS ^^^ */

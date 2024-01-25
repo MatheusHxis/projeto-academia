@@ -8,49 +8,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha384-GLhlTQ8iKSeLeM1l/6O/eNUBqPFFG0BxONTVAiXcfnFOjKBRbb5Sv8o7bBZHdhFd" crossorigin="anonymous">
     <script src="../JS/listaDeTreino.js" defer></script>
+    <link rel="shortcut icon" type="imagex/png" href="../icon/ginastica (1).png">
     <title>Extreme Sports</title>
 </head>
 
 <body>
-    <header>
-        <h1>EXTREME SPORTS</h1>
-    </header>
-    <main>
-        <div class="treino-section">
-            <h2>Escolha o Dia da Semana</h2>
-            <label for="diasDaSemana">Escolha o dia:</label>
-            <select id="diasDaSemana" onchange="carregarTreinos()">
-                <option value="segunda">Segunda-Feira</option>
-                <option value="terca">Terça-Feira</option>
-                <option value="quarta">Quarta-Feira</option>
-                <option value="quinta">Quinta-Feira</option>
-                <option value="sexta">Sexta-Feira</option>
-                <option value="sabado">Sábado</option>
-                <option value="domingo">Domingo</option>
-            </select>
-            <label for="exercicios">Escolha um exercício:</label>
-            <div class="custom-select">
-                <select id="exercicios"></select>
+        <header> <a href="../HTML/index.html"><img class="logoDoSite" src="../img/logoIndex.jpg" alt="foto da logo do site"></header></a>
+        <main>
+            <div class="treino-section">
+                <h2>Escolha o Dia da Semana</h2>
+                <label for="diasDaSemana">Escolha o dia:</label>
+                <select id="diasDaSemana" onchange="carregarTreinos()">
+                    <option value="segunda">Segunda-Feira</option>
+                    <option value="terca">Terça-Feira</option>
+                    <option value="quarta">Quarta-Feira</option>
+                    <option value="quinta">Quinta-Feira</option>
+                    <option value="sexta">Sexta-Feira</option>
+                    <option value="sabado">Sábado</option>
+                    <option value="domingo">Domingo</option>
+                </select>
+                <label for="exercicios">Escolha um exercício:</label>
+                <div class="custom-select">
+                    <select id="exercicios"></select>
+                </div>
+                <div class="inputs-section">
+                    <input type="number" id="pesoKg" placeholder="Meta de Kg">
+                    <input type="number" id="reps" placeholder="Meta de reps">
+                    <button class= "btnSemana" onclick="addExercicio()">Adicionar Treino</button>
+                </div>
             </div>
-            <div class="inputs-section">
-                <input type="number" id="pesoKg" placeholder="Quantos kg você pegou?">
-                <input type="number" id="reps" placeholder="Fez quantas Repetições?">
-                <button onclick="addExercicio()">Adicionar Treino</button>
-            </div>
-        </div>
 
-        <div class="lista-section">
-            <h2>Lista de Treinos</h2>
-            <label for="nomeTreino">Nome do Treino:</label>
-            <div class="nome-treino-input">
-                <input type="text" id="nomeTreino" placeholder="Digite o nome do treino">
-                <button onclick="addExercicio()">Adicionar Treino</button>
+            <div class="lista-section">
+                <h2>Lista de Treinos</h2>
+                <label for="nomeTreino">Nome do Treino:</label>
+                <div class="nome-treino-input">
+                    <input type="text" id="nomeTreino" placeholder="Digite o nome do treino">
+                    <button onclick="addExercicio()">Adicionar Treino</button>
+                </div>
+                <ul id="listaDeExercicios" data-dia-selecionado="">
+                    <!-- Itens da lista de treinos -->
+                </ul>
             </div>
-            <ul id="listaDeExercicios" data-dia-selecionado="">
-                <!-- Itens da lista de treinos -->
-            </ul>
-        </div>
-    </main>
+        </main>
+    </div>
+    <div class="jonas">
+        <img src="../img/jonasTreino.gif" alt="">
+        <img src="../img/jonasTreino2.gif" alt="">
+        <img src="../img/jonasTreino3.gif" alt="">
+        <img src="../img/jonasTreino4.gif" alt="">
+    </div>
 </body>
 
 </html>
