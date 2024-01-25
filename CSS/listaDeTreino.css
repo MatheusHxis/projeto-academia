@@ -27,6 +27,7 @@ main {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .treino-section,
 .lista-section {
   flex: 1;
@@ -192,3 +193,5 @@ main {
 #listaDeExercicios li:hover {
   transform: scale(1.05);
 }
+=======
+>>>>>>> parent of 0da15e9 (rank do index)
