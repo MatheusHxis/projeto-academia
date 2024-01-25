@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JS/planoDeTreino.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/listaDeTreino.css">
+    <title>Lista De Treino</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="fazerTreino">
+            <h2>Faça Seu treino de Segunda-Feira</Segunda-Feira></h2>
+            <form action="">
+                <label for="diasDaSemana">Escolha o dia da semana</label>
+                <select id="diasDaSemana">
+                    <option value="domingo">domingo</option>
+                    <option value="segunda">Segunda-Feira</option>
+                    <option value="terca">Terça-Feira</option>
+                    <option value="quarta">Quarta-feira</option>
+                    <option value="quinta">Quinta-Feira</option>
+                    <option value="sexta">Sexta-feira</option>
+                    <option value="sabado">Sábado</option>
+                </select>
+                <input id="exercicio" type="text" placeholder="Exercício">
+                <input id="reps" type="number" placeholder="Meta de Reps?">
+                <input id="kg" type="number" placeholder="Meta de kg?">
+                <button type="button" onclick="addExercicio()" id="addTreino">add treino</button>
+            </form>
+        </div>
+    </main>
+    <div id="parteDaLista">
+        <h2>Lista De Treino</h2>
+        <ul id="listaDeTreino">
+
+        </ul>
+    </div>
+</body>
+
+</html>
