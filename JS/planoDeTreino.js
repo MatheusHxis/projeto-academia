@@ -1,14 +1,14 @@
 function addExercicio() {
-    let addTreino = document.getElementById("exercicio").value
-    let reps = document.getElementById("reps").value
-    let kg = document.getElementById("kg").value
-    let diasDaSemana = document.getElementById('diasDaSemana').value
-    
+    let addTreino = document.getElementById("exercicio")
+    let reps = parseInt(document.getElementById("reps").value)
+    let kg = parseFloat(document.getElementById("kg").value)
+    let diasDaSemana = document.getElementById("diasDaSemana").value
 
-    if (addTreino && reps && kg) {
+
+    if (addTreino.value && reps && kg) {
         let novoExercicioTexto = document.createElement("li")
-        novoExercicioTexto.textContent = `${addTreino} | Peso: ${kg} | reps: ${reps}`;
-        
+        novoExercicioTexto.textContent = `${addTreino.value} | Peso: ${kg} | reps: ${reps}`;
+
         document.getElementById('listaDeTreino').appendChild(novoExercicioTexto)
 
 
@@ -22,6 +22,8 @@ function addExercicio() {
         let listaDeExerciciosDia = document.getElementById(`listaDeExercicios -${diasDaSemana}`)
 
         listaDeExerciciosDia.appendChild(novoExercicio)
+
+        saveExerciseToLocalStorage(novoExercicioTexto)
 
         // codigo para limpa o formulario
 
